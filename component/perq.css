@@ -1,0 +1,110 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #121212; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* White text for contrast */
+    overflow: hidden; /* Prevents scrolling */
+  }
+  
+  /* Container for the page */
+  .container {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    width: 70vw; /* Relative width based on the viewport */
+    height: 70vh; /* Relative height based on the viewport */
+    max-width: 1200px; /* Max width to avoid it becoming too large on wide screens */
+    max-height: 800px; /* Max height to maintain a good aspect ratio */
+    padding: 30px;
+    border: 2px solid #333; /* Dark border to define the edges */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures proper spacing of the header and grid */
+  }
+  
+  /* Header styles */
+  .header {
+    font-size: 4vw; /* Dynamic font size based on viewport width */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FFD700; /* Golden color for the header */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Grid layout for items */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    overflow-y: auto; /* Ensures scrolling if there are too many items */
+    flex-grow: 1; /* Makes grid take up available space */
+  }
+  
+  /* Styling for each item */
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #333; /* Dark background for items */
+    font-size: 16px;
+    color: #fff; /* White text inside items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Button styling */
+  .btn-answer {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Bright green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-answer:hover {
+    background-color: #45a049; /* Darker green */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 85vw; /* Adjust container width for smaller screens */
+      height: 85vh; /* Adjust container height for smaller screens */
+    }
+  
+    .header {
+      font-size: 6vw; /* Adjust font size on smaller screens */
+    }
+  
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+  
+    .item {
+      font-size: 14px;
+    }
+  
+    .btn-answer {
+      font-size: 14px;
+    }
+  }
+  

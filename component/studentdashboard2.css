@@ -1,0 +1,96 @@
+/* Dark Theme Styling */
+body {
+    background: #2e2e2e; /* Grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    width: 80%; /* Increase width */
+    height: 80vh; /* Increase height */
+    padding: 40px; /* Increase padding */
+    background: #121212;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.2);
+    text-align: center;
+  }
+  
+  .student-info {
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 1.2rem; /* Increase text size */
+    border-left: 8px solid #007bff;
+  }
+  
+  .new-enroll input {
+    width: 90%;
+    padding: 15px;
+    background: #222;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .teacher-button {
+    padding: 15px 20px;
+    background: #007bff;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .teacher-button:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .enrolled-section {
+    margin-top: 30px;
+  }
+  
+  .enrolled-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teacher-card {
+    padding: 20px;
+    background: #28a745;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 6px 12px rgba(40, 167, 69, 0.5);
+    cursor: pointer;
+  }
+  
+  .teacher-card:hover {
+    background: #218838;
+    transform: scale(1.1);
+  }
+  

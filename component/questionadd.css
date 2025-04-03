@@ -1,0 +1,97 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #121212;
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  .teacher-info {
+    width: 50%;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-info h2 {
+    margin-bottom: 10px;
+    color: #4ecdc4;
+  }
+  
+  .teacher-info p {
+    margin: 0;
+    color: #bbb;
+  }
+  
+  .exam-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .exam-section {
+    width: 45%;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .exam-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4ecdc4;
+    color: #121212;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .exam-button:hover {
+    background-color: #45b7aa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-exam-button {
+    background-color: #ffd93d;
+    color: #121212;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .add-exam-button:hover {
+    background-color: #ffc300;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
