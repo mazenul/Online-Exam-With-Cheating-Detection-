@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "my-exam-app",
     "version": "1.0.0",
     "description": "A backend server for the online exam system with JWT authentication",
@@ -23,3 +24,21 @@
     "license": "ISC"
   }
   
+=======
+  "name": "online-exam-with-cheating-detection-",
+  "version": "1.0.0",
+  "description": "Cse 299",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}
+>>>>>>> 4f281a94313f3d81f58aa1ff0a09a09e299e54f6
